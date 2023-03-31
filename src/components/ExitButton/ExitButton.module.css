@@ -1,0 +1,7 @@
+.exitButton {
+   width: 32px;
+   height: 32px;
+   border: none;
+   background-color: rgba(255, 255, 255, 1);
+   padding: 7px;
+}
