@@ -1,0 +1,14 @@
+.сhatForm {
+   display: flex;
+   gap: 12px;
+   width: 412px;
+   height: 48px;
+}
+
+.сhatForm__button {
+   width: 48px;
+   height: 48px;
+   border-radius: 12px;
+   border: none;
+   padding: 0;
+}
