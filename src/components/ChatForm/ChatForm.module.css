@@ -11,4 +11,10 @@
    border-radius: 12px;
    border: none;
    padding: 0;
+   cursor: pointer;
+   background-image: url(../../images/arrow-button.png);
+}
+
+.сhatForm__button:hover {
+   background-image: url(../../images/arrow-button-hover.png);
 }

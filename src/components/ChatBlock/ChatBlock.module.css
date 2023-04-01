@@ -25,6 +25,7 @@
    gap: 8px;
    width: 352px;
    background: #ffffff;
+   filter: drop-shadow(0px 4px 20px rgba(44, 57, 121, 0.09));
    box-shadow: 0px 2px 6px rgba(44, 57, 121, 0.1);
    border-radius: 16px 16px 16px 0px;
    padding: 12px;
