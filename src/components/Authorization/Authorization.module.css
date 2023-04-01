@@ -1,0 +1,18 @@
+.authorization {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 308px auto;
+}
+
+.authorization__container {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 400px;
+   height: 464px;
+   box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+   border-radius: 16px;
+   padding: 40px 24px;
+   box-sizing: border-box;
+}

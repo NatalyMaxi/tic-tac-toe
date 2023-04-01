@@ -1,0 +1,21 @@
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 100%;
+}
+
+.form__title {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 150%;
+   color: #373745;
+   margin: 0;
+}
+
+.form__container {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   width: 352px;
+}

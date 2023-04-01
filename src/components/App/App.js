@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import Header from '../Header/Header';
-import Main from '../Main/Main';
+// import Header from '../Header/Header';
+// import Main from '../Main/Main';
+import Authorization from '../Authorization/Authorization';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main/>
+      {/* <Header />
+      <Main /> */}
+      <Authorization/>
     </div>
   )
 }

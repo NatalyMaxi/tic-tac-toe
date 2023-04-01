@@ -6,7 +6,9 @@ const ChatForm = () => {
    return (
       <form className={classes.сhatForm}>
          <Input
+            name='message'
             placeholder='Сообщение…'
+            type="text"
          />
          <button className={classes.сhatForm__button}>
          </button>
