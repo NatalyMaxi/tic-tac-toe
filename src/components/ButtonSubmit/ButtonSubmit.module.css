@@ -1,4 +1,7 @@
 .button {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
    width: 352px;
    height: 48px;
    background: #60c2aa;
@@ -14,7 +17,20 @@
    background: #3ba189;
 }
 
-.button_type_disabled {
+.button_disabled {
+   opacity: 0.3;
+   cursor: default;
+}
+
+.button_type_small {
+   width: 161px;
+   background: #60c2aa;
+   box-sizing: border-box;
+}
+
+.button_type_small_disabled {
+   color: #373745;
+   background: #f7f7f7;
    opacity: 0.3;
    cursor: default;
 }

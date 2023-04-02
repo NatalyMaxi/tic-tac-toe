@@ -9,7 +9,6 @@ const UserRating = (props) => {
          <p className={`${props.className} ${props.classNameDefeat}`}>{props.defeat}</p>
          <p className={props.className}>{props.percent}</p>
       </>
-
    )
 }
 
