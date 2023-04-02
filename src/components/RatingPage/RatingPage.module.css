@@ -1,0 +1,53 @@
+.ratingPageContent {
+   display: flex;
+   width: 1920px;
+   margin: 0 auto;
+}
+
+.ratingPageContent__container {
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+   width: 1026px;
+   box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+   border-radius: 40px;
+   margin: 80px auto;
+   padding: 32px;
+   box-sizing: border-box;
+}
+
+.ratingPageContent__title {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 150%;
+   color: #373745;
+   text-align: start;
+   margin: 0;
+}
+
+.ratingPageContent__table {
+   display: grid;
+   grid-template-columns: 440px 108px 108px 108px 134px;
+   grid-auto-rows: 48px;
+   column-gap: 16px;
+}
+
+.ratingPageContent__subtitle {
+   text-align: start;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.24px;
+   color: #373745;
+   margin: 0;
+   padding: 12px 8px;
+   box-shadow: inset 0px -1px 0px #eeeff5;
+}
+
+.ratingPageContent__subtitle_type_victory {
+   color: #69b849;
+}
+
+.ratingPageContent__subtitle_type_defeat {
+   color: #e93e3e;
+}
