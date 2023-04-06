@@ -11,11 +11,11 @@ const RatingPage = () => {
                Рейтинг игроков
             </h2>
             <div className={classes.ratingPage__table}>
-               <p className={classes.ratingPage__subtitle}>ФИО</p>
-               <p className={classes.ratingPage__subtitle}>Всего игр</p>
-               <p className={classes.ratingPage__subtitle}>Победы</p>
-               <p className={classes.ratingPage__subtitle}>Проигрыши</p>
-               <p className={classes.ratingPage__subtitle}>Процент побед</p>
+               <p className={`${classes.ratingPage__subtitle} ${classes.ratingPage__subtitle_type_contents}`}>ФИО</p>
+               <p className={`${classes.ratingPage__subtitle} ${classes.ratingPage__subtitle_type_contents}`}>Всего игр</p>
+               <p className={`${classes.ratingPage__subtitle} ${classes.ratingPage__subtitle_type_contents}`}>Победы</p>
+               <p className={`${classes.ratingPage__subtitle} ${classes.ratingPage__subtitle_type_contents}`}>Проигрыши</p>
+               <p className={`${classes.ratingPage__subtitle} ${classes.ratingPage__subtitle_type_contents}`}>Процент побед</p>
                {
                   users.map((user, index) => {
                      return <UserRating

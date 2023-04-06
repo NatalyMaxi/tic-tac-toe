@@ -141,3 +141,116 @@ export const activeUsers = [
       free: true,
    }
 ]
+
+export const gameHistory = [
+   {
+      zero: 'Терещенко У.Р.',
+      cross: 'Многогрешный П. В.',
+      isVictory: {
+         zero: true,
+         cross: false
+      },
+      gameDate: '12 февраля 2022',
+      gameTime: '43 мин 13 сек',
+   },
+   {
+      zero: 'Горбачёв А. Д.',
+      cross: 'Многогрешный П. В.',
+      isVictory: {
+         zero: false,
+         cross: true
+      },
+      gameDate: '12 февраля 2022',
+      gameTime: '43 мин 13 сек',
+   },
+   {
+      zero: 'Константинов В. Н.',
+      cross: 'Сасько Ц. А.',
+      isVictory: {
+         zero: true,
+         cross: false
+      },
+      gameDate: '12 февраля 2022',
+      gameTime: '43 мин 13 сек',
+   },
+   {
+      zero: 'Никифорова Б. А.',
+      cross: 'Горбачёв А. Д.',
+      isVictory: {
+         zero: false,
+         cross: true
+      },
+      gameDate: '12 февраля 2022',
+      gameTime: '43 мин 13 сек',
+   },
+   {
+      zero: 'Кулишенко К. И.',
+      cross: 'Вишняков Ч. М.',
+      isVictory: {
+         zero: false,
+         cross: true
+      },
+      gameDate: '12 февраля 2022',
+      gameTime: '43 мин 13 сек',
+   },
+   {
+      zero: 'Гриневска Д. Б.',
+      cross: 'Кудрявцев Э. В.',
+      isVictory: {
+         zero: false,
+         cross: true
+      },
+      gameDate: '12 февраля 2022',
+      gameTime: '43 мин 13 сек',
+   },
+   {
+      zero: 'Нестеров Х. А.',
+      cross: 'Исаева О. А.',
+      isVictory: {
+         zero: true,
+         cross: false
+      },
+      gameDate: '12 февраля 2022',
+      gameTime: '43 мин 13 сек',
+   },
+   {
+      zero: 'Исаева О. А.',
+      cross: 'Кулишенко К. И.',
+      isVictory: {
+         zero: false,
+         cross: true
+      },
+      gameDate: '12 февраля 2022',
+      gameTime: '43 мин 13 сек',
+   },
+   {
+      zero: 'Коновалова В. В.',
+      cross: 'Терещенко У. Р.',
+      isVictory: {
+         zero: false,
+         cross: true
+      },
+      gameDate: '12 февраля 2022',
+      gameTime: '43 мин 13 сек',
+   },
+   {
+      zero: 'Казаков Х. Е.',
+      cross: 'Овчаренко Б. М.',
+      isVictory: {
+         zero: true,
+         cross: false
+      },
+      gameDate: '12 февраля 2022',
+      gameTime: '43 мин 13 сек',
+   },
+   {
+      zero: 'Сасько Ц. А.',
+      cross: 'Никифорова Б. А.',
+      isVictory: {
+         zero: false,
+         cross: true
+      },
+      gameDate: '12 февраля 2022',
+      gameTime: '43 мин 13 сек',
+   },
+]

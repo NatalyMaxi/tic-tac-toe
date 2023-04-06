@@ -1,14 +1,14 @@
-.ratingPage {
+.historyPage {
    display: flex;
    width: 1920px;
    margin: 0 auto;
 }
 
-.ratingPage__content {
+.historyPage__content {
    display: flex;
    flex-direction: column;
    gap: 24px;
-   width: 1026px;
+   width: 1074px;
    box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
    border-radius: 40px;
    margin: 80px auto;
@@ -16,7 +16,7 @@
    box-sizing: border-box;
 }
 
-.ratingPage__title {
+.historyPage__title {
    font-weight: 700;
    font-size: 24px;
    line-height: 150%;
@@ -25,32 +25,22 @@
    margin: 0;
 }
 
-.ratingPage__table {
+.historyPage__table {
    display: grid;
-   grid-template-columns: 440px 108px 108px 108px 134px;
-   grid-auto-rows: 48px;
+   grid-template-columns: 678px 160px 140px;
+   grid-template-rows: 40px repeat(auto-fill, 40px);
    column-gap: 16px;
+   row-gap: 8px;
+   margin: 0;
 }
 
-.ratingPage__subtitle {
+.historyPage__subtitle {
    text-align: start;
-   font-weight: 400;
+   font-weight: 500;
    font-size: 16px;
    line-height: 24px;
    letter-spacing: 0.24px;
    color: #373745;
    margin: 0;
-   padding: 12px 8px;
-}
-
-.ratingPage__subtitle_type_contents {
-   font-weight: 500;
-}
-
-.ratingPage__subtitle_type_victory {
-   color: #69b849;
-}
-
-.ratingPage__subtitle_type_defeat {
-   color: #e93e3e;
+   padding: 8px;
 }
