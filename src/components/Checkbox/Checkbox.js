@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Checkbox.module.css';
 
-const Checkbox = ({ onCheckbox, checked }) => {
+const Checkbox = () => {
    return (
       <div className={classes.checkbox}>
          <label className={classes.checkbox__label}>Только свободные</label>

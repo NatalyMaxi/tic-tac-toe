@@ -6,6 +6,7 @@ import RatingPage from '../RatingPage/RatingPage';
 import { Route, Routes } from 'react-router-dom';
 import Main from '../Main/Main';
 import Authorization from '../Authorization/Authorization';
+import PlayerListPage from '../PlayerListPage/PlayerListPage';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Route path='/rating' element={<RatingPage />} />
         <Route path='/active' element={<ActivePlayersPage />} />
         <Route path='/history' element={<GameHistoryPage />} />
+        <Route path='/users' element={<PlayerListPage />} />
         {/* Пока маршкрут надо самостоятельно ввести в браузерной строке */}
-        <Route path='/authorization' element={<Authorization />} /> 
+        <Route path='/authorization' element={<Authorization />} />
       </Routes>
     </div>
   )

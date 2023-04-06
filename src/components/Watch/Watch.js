@@ -4,7 +4,7 @@ import classes from './Watch.module.css';
 const Watch = () => {
    return (
       <div className={classes.watch}>
-05:12
+         05:12
       </div>
    )
 }

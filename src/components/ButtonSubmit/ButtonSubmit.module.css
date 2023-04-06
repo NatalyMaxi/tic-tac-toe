@@ -2,35 +2,35 @@
    font-weight: 500;
    font-size: 16px;
    line-height: 24px;
-   width: 352px;
-   height: 48px;
+   letter-spacing: 0.24px;
    background: #60c2aa;
    color: #ffffff;
    border-radius: 12px;
    border: none;
-   box-sizing: border-box;
    padding: 12px 20px;
    cursor: pointer;
+}
+
+.button_disabled {
+   color: #373745;
+   background: #f7f7f7;
+   cursor: default;
 }
 
 .button:hover {
    background: #3ba189;
 }
 
-.button_disabled {
-   opacity: 0.3;
+.button_disabled:hover {
+   background: #f7f7f7;
+}
+
+.button_disabledBig {
+   background: rgba(96, 194, 170, 0.3);
    cursor: default;
 }
 
-.button_type_small {
-   width: 161px;
-   background: #60c2aa;
-   box-sizing: border-box;
-}
-
-.button_type_small_disabled {
-   color: #373745;
-   background: #f7f7f7;
-   opacity: 0.3;
+.button_disabledBig:hover {
+   background: rgba(96, 194, 170, 0.3);
    cursor: default;
 }

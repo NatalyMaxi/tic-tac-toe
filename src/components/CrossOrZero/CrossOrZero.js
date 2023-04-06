@@ -8,11 +8,18 @@ const CrossOrZero = (props) => {
       <div className={classes.cross}>
          {
             props.cross ?
-               (<img className={classes.cross__item} src={cross} alt='Крестик' />) :
+               (<img
+                  className={classes.cross__item}
+                  src={cross}
+                  alt='Крестик' />)
+               :
                props.zero ?
-                  (<img className={classes.cross__item} src={zero} alt='Нолик' />) :
+                  (<img
+                     className={classes.cross__item}
+                     src={zero}
+                     alt='Нолик' />)
+                  :
                   (null)
-
          }
       </div>
    )

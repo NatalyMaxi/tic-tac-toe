@@ -1,0 +1,100 @@
+.user {
+   display: flex;
+   align-items: center;
+   text-align: start;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.24px;
+   color: #373745;
+   margin: 0;
+   padding: 12px 8px;
+}
+
+.user_place_ActivePlayersPage {
+   width: 360px;
+}
+
+.user_type_victory {
+   color: #69b849;
+}
+
+.user_type_defeat {
+   color: #e93e3e;
+}
+
+.user__info {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+   padding: 12px 0;
+   box-sizing: border-box;
+}
+
+.user__container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 341px;
+}
+
+.user__iconContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.user__icon {
+   width: 24px;
+   height: 24px;
+   align-self: center;
+   margin: 0 auto;
+}
+
+.user__item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.24px;
+   width: 100px;
+   height: 32px;
+   color: #ffffff;
+   background: #a8d37f;
+   border-radius: 6px;
+   padding: 4px 12px;
+   box-sizing: border-box;
+   align-self: center;
+}
+
+.user__item_type_free {
+   background: #87cae8;
+}
+
+.user__item_type_blocked {
+   background: #ec7777;
+   width: 136px;
+}
+
+.user__item_type_unblocked {
+   width: 136px;
+}
+
+.user__button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   align-self: center;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.24px;
+   height: 40px;
+   border: none;
+   background: #f7f7f7;
+   border-radius: 8px;
+   gap: 8px;
+   padding: 8px 16px;
+}

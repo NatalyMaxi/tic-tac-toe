@@ -6,7 +6,8 @@ const Input = ({ error, name, placeholder, type, ...rest }) => {
       <div>
          <input
             className={error ?
-               `${classes.input} ${classes.input_type_error}` :
+               `${classes.input} ${classes.input_type_error}`
+               :
                `${classes.input}`}
             name={name}
             placeholder={placeholder}

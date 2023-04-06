@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './ActivePlayersPage.module.css';
 import Checkbox from '../Checkbox/Checkbox';
 import { activeUsers } from '../../utils/constants';
-import UserActivity from '../UserActivity/UserActivity';
+import User from '../User/User';
 import Header from '../Header/Header';
 
 const ActivePlayersPage = () => {
@@ -20,17 +20,19 @@ const ActivePlayersPage = () => {
                <div className={classes.activePlayersPage__table}>
                   {
                      activeUsers.map((user, index) => {
-                        return <UserActivity
+                        return <User
                            key={index}
                            fullName={user.fullName}
                            active={user.free === true ? true : false}
                            disabled={user.free === false ? true : false}
+                           isActivePlayersPage={true}
                         />
                      })
                   }
                </div>
             </div>
-         </main></>
+         </main>
+      </>
    )
 }
 

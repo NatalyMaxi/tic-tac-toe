@@ -10,7 +10,9 @@ const ChatForm = () => {
             placeholder='Сообщение…'
             type="text"
          />
-         <button className={classes.сhatForm__button}>
+         <button
+            className={classes.сhatForm__button}
+            type='button'>
          </button>
       </form>
    )

@@ -9,10 +9,7 @@ const Form = ({ children, text, name, onSubmit, title, disabled }) => {
          name={name}
          onSubmit={onSubmit}
       >
-         <h2
-            className={classes.form__title}>
-            {title}
-         </h2>
+         <h2 className={classes.form__title}>{title}</h2>
          <div className={classes.form__container}>
             {children}
          </div>

@@ -1,14 +1,14 @@
-.ratingPage {
+.listPlayers {
    display: flex;
    width: 1920px;
    margin: 0 auto;
 }
 
-.ratingPage__content {
+.listPlayers__content {
    display: flex;
    flex-direction: column;
    gap: 24px;
-   width: 1026px;
+   width: 1416px;
    box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
    border-radius: 40px;
    margin: 80px auto;
@@ -16,23 +16,29 @@
    box-sizing: border-box;
 }
 
-.ratingPage__title {
-   text-align: start;
+.listPlayers__container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.listPlayers__title {
    font-weight: 700;
    font-size: 24px;
    line-height: 150%;
    color: #373745;
+   text-align: start;
    margin: 0;
 }
 
-.ratingPage__table {
+.listPlayers__table {
    display: grid;
-   grid-template-columns: 440px 108px 108px 108px 134px;
-   grid-auto-rows: 48px;
+   grid-template-columns: 440px 108px 46px 152px 160px 160px 190px;
+   grid-template-rows: 48px repeat(auto-fill, 64px);
    column-gap: 16px;
 }
 
-.ratingPage__subtitle {
+.listPlayers__subtitle {
    text-align: start;
    font-weight: 500;
    font-size: 16px;
