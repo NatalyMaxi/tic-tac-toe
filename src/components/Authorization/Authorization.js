@@ -14,6 +14,7 @@ const Authorization = () => {
                   alt='Собачка' />
             </div>
             <Form
+               name='authorization'
                title='Войдите в игру'
                text='Войти'
                disabled='disabled'//временно
