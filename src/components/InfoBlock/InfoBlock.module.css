@@ -26,11 +26,6 @@
    gap: 12px;
 }
 
-.infoBlock__icon {
-   width: 24px;
-   height: 24px;
-}
-
 .infoBlock__item {
    display: flex;
    flex-direction: column;

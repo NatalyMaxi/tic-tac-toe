@@ -1,14 +1,20 @@
 import React from 'react';
-import CrossOrZero from '../CrossOrZero/CrossOrZero';
+import IconCrossOrToe from '../IconCrossOrToe/IconCrossOrToe';
 import classes from './GridCell.module.css';
 
 const GridCell = (props) => {
    return (
       <div className={classes.cell}>
-         <CrossOrZero
-            cross={props.cross}
-            zero={props.zero}
-         />
+         {
+            props.zero && <IconCrossOrToe
+               zero='zero'
+            />
+         }
+         {
+            props.cross && <IconCrossOrToe
+               cross='cross'
+            />
+         }
       </div>
    )
 }

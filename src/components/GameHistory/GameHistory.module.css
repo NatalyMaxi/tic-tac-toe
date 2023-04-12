@@ -18,11 +18,6 @@
    margin: 0;
 }
 
-.game__icon {
-   width: 16px;
-   height: 16px;
-}
-
 .game__name {
    font-weight: 400;
    font-size: 16px;

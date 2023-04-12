@@ -1,18 +1,19 @@
 import React from 'react';
 import classes from './Panel.module.css';
-//import smallCross from '../../images/cross-small.png';
-import smallZero from '../../images/zero-small.png';
+import IconCrossOrToe from '../IconCrossOrToe/IconCrossOrToe';
 
 const Panel = () => {
    return (
       <div className={classes.panel}>
          <p className={classes.panel__text}>Ходит</p>
-         <img
-            className={classes.panel__icon}
-            src={smallZero}
-            alt='Нолик'
+         <IconCrossOrToe
+            smallIcon='true'
+            zero='zero'
          />
-         {/* <img className={classes.panel__icon} src={smallCross} alt='Крестик' /> */}
+         {/* <IconCrossOrToe
+            smallIcon='true'
+            cross='cross'
+         /> */}
          <p className={classes.panel__text}>Владлен Пупкин</p>
       </div>
    )

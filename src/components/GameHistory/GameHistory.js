@@ -1,7 +1,6 @@
 import React from 'react';
+import IconCrossOrToe from '../IconCrossOrToe/IconCrossOrToe';
 import classes from './GameHistory.module.css';
-import littleCross from '../../images/cross-little.png';
-import littleZero from '../../images/zero-little.png';
 import cup from '../../images/cup.png';
 
 const GameHistory = (props) => {
@@ -9,10 +8,9 @@ const GameHistory = (props) => {
       <>
          <div className={classes.game__players}>
             <div className={classes.game__item}>
-               <img
-                  className={classes.game__icon}
-                  src={littleZero}
-                  alt='Иконка нолик'
+               <IconCrossOrToe
+                  littleIcon='true'
+                  zero='zero'
                />
                <p className={classes.game__name}>{props.userNameZero}</p>
                {
@@ -26,17 +24,16 @@ const GameHistory = (props) => {
             </div>
             <div className={classes.game__text}>против</div>
             <div className={classes.game__item}>
-               <img
-                  className={classes.game__icon}
-                  src={littleCross}
-                  alt='Иконка кубок'
+               <IconCrossOrToe
+                  littleIcon='true'
+                  cross='cross'
                />
                <p className={classes.game__name}>{props.userNameCross}</p>
                {
                   props.isVictory.cross &&
                   <img className={classes.game__cupIcon}
                      src={cup}
-                     alt='Иконка крестик'
+                     alt='Иконка кубок'
                   />
                }
             </div>
