@@ -7,7 +7,8 @@ import { Route, Routes } from 'react-router-dom';
 import Main from '../Main/Main';
 import Authorization from '../Authorization/Authorization';
 import PlayerListPage from '../PlayerListPage/PlayerListPage';
-import Popup from '../Popup/Popup';
+import PopupAddUser from '../PopupAddUser/PopupAddUser';
+import PopupWithWinner from '../PopupWithWinner/PopupWithWinner';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         <Route path='/users' element={<PlayerListPage />} />
         {/* Пока маршкрут надо самостоятельно ввести в браузерной строке */}
         <Route path='/authorization' element={<Authorization />} />
-        <Route path='/popup' element={<Popup />} />
+        <Route path='/popup' element={<PopupAddUser />} />
+        <Route path='/popupw' element={<PopupWithWinner />} />
       </Routes>
     </div>
   )

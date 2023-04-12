@@ -11,7 +11,7 @@
    cursor: pointer;
 }
 
-.button_disabled {
+.button_type_light {
    color: #373745;
    background: #f7f7f7;
    cursor: default;
@@ -21,16 +21,16 @@
    background: #3ba189;
 }
 
-.button_disabled:hover {
+.button_type_light:hover {
    background: #f7f7f7;
 }
 
-.button_disabledBig {
+.button_type_lightBig {
    background: rgba(96, 194, 170, 0.3);
    cursor: default;
 }
 
-.button_disabledBig:hover {
+.button_type_lightBig:hover {
    background: rgba(96, 194, 170, 0.3);
    cursor: default;
 }

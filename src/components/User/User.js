@@ -33,7 +33,7 @@ const User = (props) => {
                         text='Позвать играть'
                         type='button'
                         disabled={props.disabled}
-                        view={true}
+                        view='short'
                      />
                   </div>
                </div>

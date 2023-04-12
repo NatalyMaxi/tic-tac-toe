@@ -4,28 +4,39 @@ import classes from './ButtonSubmit.module.css';
 const ButtonSubmit = ({ text, disabled, view, ...rest }) => {
    return (
       <>
-         {view ?
-            (
-               <button
-                  className={disabled ?
-                     `${classes.button} ${classes.button_disabled}`
-                     :
-                     `${classes.button}`}
-                  {...rest}>
-                  {text}
-               </button>
-            )
-            :
-            (
-               <button
-                  className={disabled ?
-                     `${classes.button} ${classes.button_disabledBig}`
-                     :
-                     `${classes.button}`}
-                  {...rest}>
-                  {text}
-               </button>
-            )}
+         {
+            view === 'short' ?
+               (
+                  <button
+                     className={disabled ?
+                        `${classes.button} ${classes.button_type_light}`
+                        :
+                        `${classes.button}`}
+                     {...rest}>
+                     {text}
+                  </button>
+               )
+               :
+               view === 'light' ?
+                  (
+                     <button
+                        className={`${classes.button} ${classes.button_type_light}`}
+                        {...rest}>
+                        {text}
+                     </button>
+                  )
+                  :
+                  (
+                     <button
+                        className={disabled ?
+                           `${classes.button} ${classes.button_type_lightBig}`
+                           :
+                           `${classes.button}`}
+                        {...rest}>
+                        {text}
+                     </button>
+                  )
+         }
       </>
    )
 }

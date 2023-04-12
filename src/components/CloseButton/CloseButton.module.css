@@ -1,0 +1,11 @@
+.closeButton {
+   display: flex;
+   align-self: flex-end;
+   width: 24px;
+   height: 24px;
+   background-color: #ffffff;
+   background-image: url(../../images/close.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   border: none;
+}
