@@ -2,14 +2,13 @@ import React from 'react';
 import ButtonSubmit from '../ButtonSubmit/ButtonSubmit';
 import classes from './Form.module.css';
 
-const Form = ({ children, text, name, onSubmit, title, disabled }) => {
+const Form = ({ children, text, name, onSubmit, disabled }) => {
    return (
       <form
          className={classes.form}
          name={name}
          onSubmit={onSubmit}
       >
-         <h2 className={classes.form__title}>{title}</h2>
          <div className={classes.form__container}>
             {children}
          </div>

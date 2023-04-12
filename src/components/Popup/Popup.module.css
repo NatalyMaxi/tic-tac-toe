@@ -45,14 +45,6 @@
    border: none;
 }
 
-.popup__title {
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 150%;
-   color: #373745;
-   margin: 0;
-}
-
 .popup__form {
    display: flex;
    flex-direction: column;

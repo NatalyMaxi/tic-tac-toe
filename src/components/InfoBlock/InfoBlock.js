@@ -2,11 +2,12 @@ import React from 'react';
 import classes from './InfoBlock.module.css';
 import smallCross from '../../images/cross-small.png';
 import smallZero from '../../images/zero-small.png';
+import Title from '../Title/Title';
 
 const InfoBlock = () => {
    return (
       <div className={classes.infoBlock}>
-         <h1 className={classes.infoBlock__title}>Игроки</h1>
+         <Title title='Игроки' />
          <ul className={classes.infoBlock__container}>
             <li className={classes.infoBlock__items}>
                <img

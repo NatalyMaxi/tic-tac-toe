@@ -4,6 +4,8 @@ import { users } from '../../utils/constants';
 import Header from '../Header/Header';
 import ButtonSubmit from '../ButtonSubmit/ButtonSubmit';
 import User from '../User/User';
+import Title from '../Title/Title';
+import Subtitle from '../Subtitle/Subtitle';
 
 const PlayerListPage = () => {
    return (
@@ -12,20 +14,22 @@ const PlayerListPage = () => {
          <main className={classes.listPlayers}>
             <div className={classes.listPlayers__content}>
                <div className={classes.listPlayers__container}>
-                  <h2 className={classes.listPlayers__title}>Список игроков</h2>
+                  <Title
+                     title='Список игроков'
+                  />
                   <ButtonSubmit
                      text='Добавить игрока'
                      type='button'
                   />
                </div>
                <div className={classes.listPlayers__table}>
-                  <p className={classes.listPlayers__subtitle}>ФИО</p>
-                  <p className={classes.listPlayers__subtitle}>Возраст</p>
-                  <p className={classes.listPlayers__subtitle}>Пол</p>
-                  <p className={classes.listPlayers__subtitle}>Статус</p>
-                  <p className={classes.listPlayers__subtitle}>Создан</p>
-                  <p className={classes.listPlayers__subtitle}>Изменен</p>
-                  <p className={classes.listPlayers__subtitle}></p>
+                  <Subtitle subtitle='ФИО' />
+                  <Subtitle subtitle='Возраст' />
+                  <Subtitle subtitle='Пол' />
+                  <Subtitle subtitle='Статус' />
+                  <Subtitle subtitle='Создан' />
+                  <Subtitle subtitle='Создан' />
+                  <Subtitle subtitle='' />
                   {
                      users.map((user, index) => {
                         return <User

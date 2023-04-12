@@ -16,15 +16,6 @@
    box-sizing: border-box;
 }
 
-.historyPage__title {
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 150%;
-   color: #373745;
-   text-align: start;
-   margin: 0;
-}
-
 .historyPage__table {
    display: grid;
    grid-template-columns: 678px 160px 140px;
@@ -32,15 +23,4 @@
    column-gap: 16px;
    row-gap: 8px;
    margin: 0;
-}
-
-.historyPage__subtitle {
-   text-align: start;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 24px;
-   letter-spacing: 0.24px;
-   color: #373745;
-   margin: 0;
-   padding: 8px;
 }

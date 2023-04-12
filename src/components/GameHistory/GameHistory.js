@@ -7,7 +7,7 @@ import cup from '../../images/cup.png';
 const GameHistory = (props) => {
    return (
       <>
-         <p className={classes.game__players}>
+         <div className={classes.game__players}>
             <div className={classes.game__item}>
                <img
                   className={classes.game__icon}
@@ -24,7 +24,7 @@ const GameHistory = (props) => {
                   />
                }
             </div>
-            <p className={classes.game__text}>против</p>
+            <div className={classes.game__text}>против</div>
             <div className={classes.game__item}>
                <img
                   className={classes.game__icon}
@@ -40,7 +40,7 @@ const GameHistory = (props) => {
                   />
                }
             </div>
-         </p>
+         </div>
          <p className={classes.game__elem}>{props.gameDate}</p>
          <p className={classes.game__elem}>{props.gameTime}</p>
       </>

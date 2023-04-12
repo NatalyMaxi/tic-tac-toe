@@ -22,29 +22,9 @@
    justify-content: space-between;
 }
 
-.listPlayers__title {
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 150%;
-   color: #373745;
-   text-align: start;
-   margin: 0;
-}
-
 .listPlayers__table {
    display: grid;
    grid-template-columns: 440px 108px 46px 152px 160px 160px 190px;
    grid-template-rows: 48px repeat(auto-fill, 64px);
    column-gap: 16px;
-}
-
-.listPlayers__subtitle {
-   text-align: start;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 24px;
-   letter-spacing: 0.24px;
-   color: #373745;
-   margin: 0;
-   padding: 12px 8px;
 }

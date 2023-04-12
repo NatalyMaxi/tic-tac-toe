@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from '../Form/Form';
 import Input from '../Input/Input';
+import Title from '../Title/Title';
 import classes from './Authorization.module.css';
 import dog from '../../images/dog.png';
 
@@ -13,9 +14,9 @@ const Authorization = () => {
                   src={dog}
                   alt='Собачка' />
             </div>
+            <Title title='Войдите в игру' position='true' />
             <Form
                name='authorization'
-               title='Войдите в игру'
                text='Войти'
                disabled='disabled'//временно
             >

@@ -3,6 +3,8 @@ import classes from './GameHistoryPage.module.css';
 import { gameHistory } from '../../utils/constants';
 import GameHistory from '../GameHistory/GameHistory';
 import Header from '../Header/Header';
+import Title from '../Title/Title';
+import Subtitle from '../Subtitle/Subtitle';
 
 const GameHistoryPage = () => {
    return (
@@ -10,11 +12,13 @@ const GameHistoryPage = () => {
          <Header />
          <main className={classes.historyPage}>
             <div className={classes.historyPage__content}>
-               <h2 className={classes.historyPage__title}>История игр</h2>
+               <Title
+                  title='История игр'
+               />
                <div className={classes.historyPage__table}>
-                  <p className={classes.historyPage__subtitle}>Игроки</p>
-                  <p className={classes.historyPage__subtitle}>Дата</p>
-                  <p className={classes.historyPage__subtitle}>Время игры</p>
+                  <Subtitle subtitle='Игроки' />
+                  <Subtitle subtitle='Дата' />
+                  <Subtitle subtitle='Время игры' />
                   {
                      gameHistory.map((game, index) => {
                         return <GameHistory

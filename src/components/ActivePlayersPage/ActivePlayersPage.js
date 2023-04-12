@@ -4,6 +4,7 @@ import Checkbox from '../Checkbox/Checkbox';
 import { activeUsers } from '../../utils/constants';
 import User from '../User/User';
 import Header from '../Header/Header';
+import Title from '../Title/Title';
 
 const ActivePlayersPage = () => {
    return (
@@ -12,9 +13,7 @@ const ActivePlayersPage = () => {
          <main className={classes.activePlayersPage}>
             <div className={classes.activePlayersPage__content}>
                <div className={classes.activePlayersPage__items}>
-                  <h2 className={classes.activePlayersPage__title}>
-                     Активные игроки
-                  </h2>
+                  <Title title='Активные игроки' />
                   <Checkbox />
                </div>
                <div className={classes.activePlayersPage__table}>

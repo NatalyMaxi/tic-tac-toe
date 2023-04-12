@@ -16,29 +16,9 @@
    box-sizing: border-box;
 }
 
-.ratingPage__title {
-   text-align: start;
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 150%;
-   color: #373745;
-   margin: 0;
-}
-
 .ratingPage__table {
    display: grid;
    grid-template-columns: 440px 108px 108px 108px 134px;
    grid-auto-rows: 48px;
    column-gap: 16px;
-}
-
-.ratingPage__subtitle {
-   text-align: start;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 24px;
-   letter-spacing: 0.24px;
-   color: #373745;
-   margin: 0;
-   padding: 12px 8px;
 }

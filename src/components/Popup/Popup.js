@@ -4,6 +4,7 @@ import ButtonSubmit from '../ButtonSubmit/ButtonSubmit';
 import classes from './Popup.module.css';
 import man from '../../images/man.png';
 import lady from '../../images/lady.png';
+import Title from '../Title/Title';
 
 const Popup = () => {
    return (
@@ -13,7 +14,7 @@ const Popup = () => {
                className={classes.popup__button}
                type='button'
             ></button>
-            <h2 className={classes.popup__title}>Добавьте игрока</h2>
+            <Title title='Добавьте игрока' position='true' />
             <form className={classes.popup__form}>
                <label className={classes.popup__label}>ФИО
                   <Input
