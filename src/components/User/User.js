@@ -1,9 +1,8 @@
 import React from 'react';
 import classes from './User.module.css';
 import ButtonSubmit from '../ButtonSubmit/ButtonSubmit';
-import man from '../../images/man.png';
-import lady from '../../images/lady.png';
 import blocked from '../../images/blocked.png';
+import SmileyIcon from '../SmileyIcon/SmileyIcon';
 
 const User = (props) => {
    return (
@@ -46,18 +45,11 @@ const User = (props) => {
                <p className={classes.user}>{props.age}</p>
                {
                   props.gender === 'man' &&
-                  <img
-                     className={classes.user__icon}
-                     src={man}
-                     alt='Смайлик лицо мужчины'
-                  />
+                  <SmileyIcon gender='man' size='small' />
                }
                {
                   props.gender === 'lady' &&
-                  <img className={classes.user__icon}
-                     src={lady}
-                     alt='Смайлик лицо девушки'
-                  />
+                  <SmileyIcon gender='lady' size='small' />
                }
                <p className={props.status ? `${classes.user__item} ${classes.user__item_type_blocked}` : `${classes.user__item} ${classes.user__item_type_unblocked}`}>
                   {props.status ? 'Заблокирован' : 'Активен'}

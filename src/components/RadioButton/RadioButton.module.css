@@ -1,0 +1,23 @@
+.radioButton {
+   display: flex;
+   gap: 8px;
+}
+
+.radioButton__input {
+   display: none;
+}
+
+.radioButton__label {
+   display: flex;
+   width: 48px;
+   height: 48px;
+   border-radius: 50%;
+   padding: 7px;
+   border: 1px solid #60c2aa;
+   box-sizing: border-box;
+   cursor: pointer;
+}
+
+.radioButton__input:checked + .radioButton__label {
+   background: #60c2aa;
+}
