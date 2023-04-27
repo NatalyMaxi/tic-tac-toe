@@ -1,11 +1,13 @@
 import React from 'react';
 import classes from './CloseButton.module.css';
 
-const CloseButton = () => {
+const CloseButton = ({ onClose }) => {
+
   return (
     <button
       className={classes.closeButton}
       type='button'
+      onClick={onClose}
     />
   )
 }

@@ -4,12 +4,15 @@ import Logo from '../Logo/Logo';
 import Navigation from '../Navigation/Navigation';
 import ExitButton from '../ExitButton/ExitButton';
 
-const Header = () => {
+const Header = ({ onSignOut }) => {
+
   return (
     <section className={classes.header}>
       <Logo />
       <Navigation />
-      <ExitButton />
+      <ExitButton
+        onClick={onSignOut}
+      />
     </section>
   )
 }

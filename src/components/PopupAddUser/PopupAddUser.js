@@ -8,13 +8,12 @@ import CloseButton from '../CloseButton/CloseButton';
 import Label from '../Label/Label';
 import RadioButton from '../RadioButton/RadioButton';
 
-const PopupAddUser = (props) => {
+const PopupAddUser = ({isOpen, onClose}) => {
   return (
     <Popup
-      popup="add"
-      name="add-user"
+      isOpen={isOpen}
     >
-      <CloseButton />
+      <CloseButton onClose={onClose} />
       <Title title='Добавьте игрока' />
       <form className={classes.popup__form}>
         <Label text='ФИО' name='name'>

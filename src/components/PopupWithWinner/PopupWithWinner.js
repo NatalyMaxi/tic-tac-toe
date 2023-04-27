@@ -6,11 +6,9 @@ import classes from './PopupWithWinner.module.css';
 import winnerCup from '../../images/winner-cup.png';
 
 const PopupWithWinner = (props) => {
+
   return (
-    <Popup
-      popup="winner"
-      name="winner"
-    >
+    <Popup>
       <img className={classes.popup__cup} src={winnerCup} alt='Кубок победителя' />
       <Title title={props.nameWinner} />
       <div className={classes.popup__buttonContainer}>

@@ -2,14 +2,11 @@ import React from 'react';
 import classes from './RatingPage.module.css';
 import { users } from '../../utils/constants';
 import User from '../User/User';
-import Header from '../Header/Header';
 import Title from '../Title/Title';
 import Subtitle from '../Subtitle/Subtitle';
 
 const RatingPage = () => {
   return (
-    <>
-      <Header />
       <main className={classes.ratingPage}>
         <div className={classes.ratingPage__content}>
           <Title title='Рейтинг игроков' />
@@ -35,7 +32,6 @@ const RatingPage = () => {
           </div>
         </div>
       </main>
-    </>
   )
 }
 
