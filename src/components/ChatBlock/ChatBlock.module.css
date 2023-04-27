@@ -1,80 +1,80 @@
 .сhatBlock {
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
-   gap: 20px;
-   width: 412px;
-   height: 851px;
-   margin: 0 40px 0 176px;
-   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 412px;
+  height: 851px;
+  margin: 0 40px 0 176px;
+  padding: 0;
 }
 
 .сhatBlock__items {
-   display: flex;
-   flex-direction: column;
-   gap: 12px;
-   width: 100%;
-   list-style: none;
-   margin: 0;
-   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .сhatBlock__item {
-   display: flex;
-   flex-direction: column;
-   gap: 8px;
-   width: 352px;
-   background: #ffffff;
-   box-shadow: 0px 2px 6px rgba(44, 57, 121, 0.1);
-   border-radius: 16px 16px 16px 0px;
-   padding: 12px;
-   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 352px;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px rgba(44, 57, 121, 0.1);
+  border-radius: 16px 16px 16px 0px;
+  padding: 12px;
+  box-sizing: border-box;
 }
 
 .сhatBlock__item_player_cross {
-   margin-right: 60px;
+  margin-right: 60px;
 }
 
 .сhatBlock__item_player_zero {
-   margin-left: 60px;
+  margin-left: 60px;
 }
 
 .сhatBlock__container {
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .сhatBlock__name {
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 20px;
-   letter-spacing: 0.25px;
-   margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin: 0;
 }
 
 .сhatBlock__name_player_zero {
-   color: #e38bac;
+  color: #e38bac;
 }
 
 .сhatBlock__name_player_cross {
-   color: #60c2aa;
+  color: #60c2aa;
 }
 
 .сhatBlock__time {
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 20px;
-   letter-spacing: 0.25px;
-   color: #898993;
-   margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #898993;
+  margin: 0;
 }
 
 .сhatBlock__message {
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 24px;
-   letter-spacing: 0.24px;
-   text-align: start;
-   color: #373745;
-   margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+  text-align: start;
+  color: #373745;
+  margin: 0;
 }

@@ -1,54 +1,54 @@
 .infoBlock {
-   display: flex;
-   flex-direction: column;
-   gap: 24px;
-   width: 500px;
-   height: 224px;
-   box-sizing: border-box;
-   background: #ffffff;
-   box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
-   border-radius: 20px;
-   margin: 60px 89px 0 40px;
-   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 500px;
+  height: 224px;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+  border-radius: 20px;
+  margin: 60px 89px 0 40px;
+  padding: 24px;
 }
 
 .infoBlock__container {
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-   list-style: none;
-   margin: 0;
-   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .infoBlock__items {
-   display: flex;
-   gap: 12px;
+  display: flex;
+  gap: 12px;
 }
 
 .infoBlock__item {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
 }
 
 .infoBlock__name {
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 24px;
-   letter-spacing: 0.15px;
-   color: #373745;
-   margin: 0;
-   padding: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #373745;
+  margin: 0;
+  padding: 0;
 }
 
 .infoBlock__text {
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 20px;
-   letter-spacing: 0.25px;
-   color: #898993;
-   margin: 0;
-   padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #898993;
+  margin: 0;
+  padding: 0;
 }

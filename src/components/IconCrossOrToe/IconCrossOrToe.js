@@ -6,24 +6,24 @@ import smallCross from '../../images/cross-small.png';
 import smallZero from '../../images/zero-small.png';
 
 const IconCrossOrToe = (props) => {
-   return (
-      <>
-         {
-            props.cross && <img
-               className={props.smallIcon ? `${classes.icon} ${classes.icon_type_small}` : props.littleIcon ? `${classes.icon} ${classes.icon_type_little}` : `${classes.icon}`}
-               src={props.smallIcon || props.littleIcon ? `${smallCross}` : `${cross}`}
-               alt='Крестик' />
-         }
-         {
-            props.zero &&
-            <img
-               className={props.smallIcon ? `${classes.icon} ${classes.icon_type_small}` : props.littleIcon ? `${classes.icon} ${classes.icon_type_little}` : `${classes.icon}`}
-               src={props.smallIcon || props.littleIcon ? `${smallZero}` : `${zero}`}
-               alt='Нолик' />
+  return (
+    <>
+      {
+        props.cross && <img
+          className={props.smallIcon ? `${classes.icon} ${classes.icon_type_small}` : props.littleIcon ? `${classes.icon} ${classes.icon_type_little}` : `${classes.icon}`}
+          src={props.smallIcon || props.littleIcon ? `${smallCross}` : `${cross}`}
+          alt='Крестик' />
+      }
+      {
+        props.zero &&
+        <img
+          className={props.smallIcon ? `${classes.icon} ${classes.icon_type_small}` : props.littleIcon ? `${classes.icon} ${classes.icon_type_little}` : `${classes.icon}`}
+          src={props.smallIcon || props.littleIcon ? `${smallZero}` : `${zero}`}
+          alt='Нолик' />
 
-         }
-      </>
-   )
+      }
+    </>
+  )
 }
 
 export default IconCrossOrToe;

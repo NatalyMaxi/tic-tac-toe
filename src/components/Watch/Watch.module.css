@@ -1,15 +1,15 @@
 .watch {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   font-weight: 900;
-   font-size: 34px;
-   line-height: 40px;
-   letter-spacing: 0.25px;
-   width: 139px;
-   height: 88px;
-   color: #373745;
-   background-color: rgba(237, 237, 237, 1);
-   padding: 24px;
-   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+  width: 139px;
+  height: 88px;
+  color: #373745;
+  background-color: rgba(237, 237, 237, 1);
+  padding: 24px;
+  box-sizing: border-box;
 }

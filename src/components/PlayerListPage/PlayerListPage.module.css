@@ -1,30 +1,30 @@
 .listPlayers {
-   display: flex;
-   width: 1920px;
-   margin: 0 auto;
+  display: flex;
+  width: 1920px;
+  margin: 0 auto;
 }
 
 .listPlayers__content {
-   display: flex;
-   flex-direction: column;
-   gap: 24px;
-   width: 1416px;
-   box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
-   border-radius: 40px;
-   margin: 80px auto;
-   padding: 32px;
-   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 1416px;
+  box-shadow: 0px 4px 20px rgba(44, 57, 121, 0.09);
+  border-radius: 40px;
+  margin: 80px auto;
+  padding: 32px;
+  box-sizing: border-box;
 }
 
 .listPlayers__container {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .listPlayers__table {
-   display: grid;
-   grid-template-columns: 440px 108px 46px 152px 160px 160px 190px;
-   grid-template-rows: 48px repeat(auto-fill, 64px);
-   column-gap: 16px;
+  display: grid;
+  grid-template-columns: 440px 108px 46px 152px 160px 160px 190px;
+  grid-template-rows: 48px repeat(auto-fill, 64px);
+  column-gap: 16px;
 }

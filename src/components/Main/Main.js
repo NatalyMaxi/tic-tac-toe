@@ -6,16 +6,16 @@ import PlayingField from '../PlayingField/PlayingField';
 import classes from './Main.module.css';
 
 const Main = () => {
-   return (
-      <>
-         <Header />
-         <main className={classes.content}>
-            <InfoBlock />
-            <PlayingField />
-            <ChatBlock />
-         </main>
-      </>
-   )
+  return (
+    <>
+      <Header />
+      <main className={classes.content}>
+        <InfoBlock />
+        <PlayingField />
+        <ChatBlock />
+      </main>
+    </>
+  )
 }
 
 export default Main;

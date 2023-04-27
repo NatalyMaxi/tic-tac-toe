@@ -1,12 +1,12 @@
 .popup__cup {
-   width: 132px;
-   height: 165.36px;
-   padding-top: 16px;
+  width: 132px;
+  height: 165.36px;
+  padding-top: 16px;
 }
 
 .popup__buttonContainer {
-   display: flex;
-   flex-direction: column;
-   gap: 12px;
-   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
 }

@@ -1,56 +1,56 @@
 .game__players {
-   display: flex;
-   align-items: center;
-   gap: 8px;
-   width: 678px;
-   height: 48px;
-   padding: 8px;
-   margin: 0;
-   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 678px;
+  height: 48px;
+  padding: 8px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .game__item {
-   display: flex;
-   align-items: center;
-   justify-content: flex-start;
-   gap: 8px;
-   width: 220px;
-   margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  width: 220px;
+  margin: 0;
 }
 
 .game__name {
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 24px;
-   letter-spacing: 0.24px;
-   color: #373745;
-   text-overflow: ellipsis;
-   white-space: nowrap;
-   overflow: hidden;
-   margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+  color: #373745;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
 }
 
 .game__cupIcon {
-   width: 24px;
-   height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .game__text {
-   font-weight: 700;
-   font-size: 16px;
-   line-height: 24px;
-   letter-spacing: 0.24px;
-   color: #373745;
-   margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+  color: #373745;
+  margin: 0;
 }
 
 .game__elem {
-   display: flex;
-   align-items: center;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 24px;
-   letter-spacing: 0.24px;
-   color: #373745;
-   margin: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+  color: #373745;
+  margin: 0;
 }

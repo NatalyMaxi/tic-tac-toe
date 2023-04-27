@@ -5,13 +5,13 @@ import Navigation from '../Navigation/Navigation';
 import ExitButton from '../ExitButton/ExitButton';
 
 const Header = () => {
-   return (
-      <section className={classes.header}>
-         <Logo />
-         <Navigation />
-         <ExitButton />
-      </section>
-   )
+  return (
+    <section className={classes.header}>
+      <Logo />
+      <Navigation />
+      <ExitButton />
+    </section>
+  )
 }
 
 export default Header;

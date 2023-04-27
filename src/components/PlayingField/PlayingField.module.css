@@ -1,18 +1,18 @@
 .playingField {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 40px;
-   width: 663px;
-   height: 663px;
-   margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 663px;
+  height: 663px;
+  margin-top: 60px;
 }
 
 .playingField__grid {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(3, 1fr);
-   gap: 2.5px;
-   margin: 0 auto;
-   filter: drop-shadow(0px 4px 20px rgba(44, 57, 121, 0.09));
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2.5px;
+  margin: 0 auto;
+  filter: drop-shadow(0px 4px 20px rgba(44, 57, 121, 0.09));
 }

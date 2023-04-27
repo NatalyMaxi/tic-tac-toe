@@ -1,19 +1,19 @@
 .label {
-   display: flex;
-   flex-direction: column;
-   text-align: start;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 24px;
-   letter-spacing: 0.24px;
-   color: #373745;
-   gap: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+  color: #373745;
+  gap: 8px;
 }
 
 .label_type_age {
-   width: 74px;
+  width: 74px;
 }
 
 .label_type_gender {
-   width: 104px;
+  width: 104px;
 }

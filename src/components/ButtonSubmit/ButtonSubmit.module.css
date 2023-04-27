@@ -1,36 +1,36 @@
 .button {
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 24px;
-   letter-spacing: 0.24px;
-   background: #60c2aa;
-   color: #ffffff;
-   border-radius: 12px;
-   border: none;
-   padding: 12px 20px;
-   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.24px;
+  background: #60c2aa;
+  color: #ffffff;
+  border-radius: 12px;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
 }
 
 .button_type_light {
-   color: #373745;
-   background: #f7f7f7;
-   cursor: default;
+  color: #373745;
+  background: #f7f7f7;
+  cursor: default;
 }
 
 .button:hover {
-   background: #3ba189;
+  background: #3ba189;
 }
 
 .button_type_light:hover {
-   background: #f7f7f7;
+  background: #f7f7f7;
 }
 
 .button_type_lightBig {
-   background: rgba(96, 194, 170, 0.3);
-   cursor: default;
+  background: rgba(96, 194, 170, 0.3);
+  cursor: default;
 }
 
 .button_type_lightBig:hover {
-   background: rgba(96, 194, 170, 0.3);
-   cursor: default;
+  background: rgba(96, 194, 170, 0.3);
+  cursor: default;
 }
