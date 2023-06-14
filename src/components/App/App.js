@@ -91,7 +91,8 @@ function App() {
         />
         <Route
           path='/signin'
-          element={<Authorization />
+          element={<Authorization
+          />
           }
         />
         <Route
